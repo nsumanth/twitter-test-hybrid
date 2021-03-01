@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'com.test.twitter.api'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+test { 
+    useTestNG() { 
+        useDefaultListeners = true 
+    }
+}
+dependencies {
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.0'
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'org.testng', name: 'testng', version: '6.9.10'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.2.2'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+
+}
