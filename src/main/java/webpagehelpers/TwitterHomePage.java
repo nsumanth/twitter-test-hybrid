@@ -66,8 +66,9 @@ public class TwitterHomePage {
     public void takeScreenShot(String fileName) throws IOException {
         TakesScreenshot screenShot =((TakesScreenshot)driver);
         File screen = screenShot.getScreenshotAs(OutputType.FILE);
-        twitterTestFileUtils.createDirectories("reports/");
-        twitterTestFileUtils.copyFiles(screen,new File(fileName+".jpg"));
+        String userName = fileName.split("_")[0];
+        twitterTestFileUtils.createDirectories("screenshots/"+userName);
+        twitterTestFileUtils.copyFiles(screen,new File("screenshots/"+userName+"/"+fileName+".jpg"));
     }
 
     public void scrollUntillElementVisible( String  element) throws InterruptedException {

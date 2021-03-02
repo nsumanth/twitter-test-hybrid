@@ -64,7 +64,7 @@ public class tweetsTest {
                     tweet.getTweet_id() ,tweet.getTweet_text().substring(0,5),tweet.getTweet_date());
             String textToMatch = tweet.getTweet_text();
             homePage.scrollUntillElementVisible(Long.toString(tweet.getTweet_id()));
-            homePage.takeScreenShot(user+tweet.getTweet_id());
+            homePage.takeScreenShot(user+"_"+tweet.getTweet_id());
             String textFromPage = homePage.getText(Long.toString(tweet.getTweet_id()));
             logger.info("text we got from page is {}",textFromPage);
             if(textFromPage.contains(textToMatch)){

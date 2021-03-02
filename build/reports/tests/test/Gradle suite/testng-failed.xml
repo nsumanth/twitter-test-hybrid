@@ -12,7 +12,7 @@
         <methods>
           <include name="beforeClass"/>
           <include name="afterTest"/>
-          <include name="testChrome" invocation-numbers="0 1"/>
+          <include name="testChrome" invocation-numbers="2 3 9"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- tweetsTest -->

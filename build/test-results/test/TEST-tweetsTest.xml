@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tweetsTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2021-03-01T16:42:49" hostname="Sumanths-MacBook-Pro.local" time="5.174">
+<testsuite name="tweetsTest" tests="11" skipped="0" failures="3" errors="0" timestamp="2021-03-01T23:51:38" hostname="Sumanths-MacBook-Pro.local" time="834.165">
   <properties/>
-  <testcase name="testChrome[0](sachin_rt)" classname="tweetsTest" time="5.163">
-    <failure message="org.openqa.selenium.NoSuchWindowException: no such window: window was already closed&#10;  (Session info: chrome=88.0.4324.192)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a83937b4b9c61dd8d1e4a9bd963767b6&#10;*** Element info: {Using=xpath, value=//a[contains(@href,'1356959311075934215') and @aria-label]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  <testcase name="testChrome[0](sachin_rt)" classname="tweetsTest" time="70.161"/>
+  <testcase name="testChrome[1](narendramodi)" classname="tweetsTest" time="41.208"/>
+  <testcase name="testChrome[2](BillGates)" classname="tweetsTest" time="46.164">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@href,'1346184604827279360') and @aria-label]/ancestor::*[6]//*[contains(@aria-label,'replies')]&quot;}&#10;  (Session info: chrome=88.0.4324.192)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:61555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 61d89939fd135b96e7c7a336db4fe1c2&#10;*** Element info: {Using=xpath, value=//a[contains(@href,'1346184604827279360') and @aria-label]/ancestor::*[6]//*[contains(@aria-label,'replies')]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(@href,'1346184604827279360') and @aria-label]/ancestor::*[6]//*[contains(@aria-label,'replies')]&quot;}
   (Session info: chrome=88.0.4324.192)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a83937b4b9c61dd8d1e4a9bd963767b6
-*** Element info: {Using=xpath, value=//a[contains(@href,'1356959311075934215') and @aria-label]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:61555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61d89939fd135b96e7c7a336db4fe1c2
+*** Element info: {Using=xpath, value=//a[contains(@href,'1346184604827279360') and @aria-label]/ancestor::*[6]//*[contains(@aria-label,'replies')]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor71.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
@@ -25,9 +27,8 @@ Session ID: a83937b4b9c61dd8d1e4a9bd963767b6
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at webpagehelpers.TwitterHomePage.isElementPresent(TwitterHomePage.java:105)
-	at webpagehelpers.TwitterHomePage.scrollUntillElementVisible(TwitterHomePage.java:76)
-	at tweetsTest.testChrome(tweetsTest.java:66)
+	at webpagehelpers.TwitterHomePage.getRetweetsElement(TwitterHomePage.java:83)
+	at tweetsTest.testChrome(tweetsTest.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,14 +80,14 @@ Session ID: a83937b4b9c61dd8d1e4a9bd963767b6
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="testChrome[1](narendramodi)" classname="tweetsTest" time="0.01">
-    <failure message="org.openqa.selenium.NoSuchWindowException: no such window: window was already closed&#10;  (Session info: chrome=88.0.4324.192)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a83937b4b9c61dd8d1e4a9bd963767b6" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  <testcase name="testChrome[3](KingJames)" classname="tweetsTest" time="101.493">
+    <failure message="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds&#10;  (Session info: chrome=88.0.4324.192)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:61555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 61d89939fd135b96e7c7a336db4fe1c2" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
   (Session info: chrome=88.0.4324.192)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:60438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a83937b4b9c61dd8d1e4a9bd963767b6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:61555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61d89939fd135b96e7c7a336db4fe1c2
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,9 +99,11 @@ Session ID: a83937b4b9c61dd8d1e4a9bd963767b6
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at webpagehelpers.TwitterHomePage.goToHomePage(TwitterHomePage.java:31)
-	at tweetsTest.testChrome(tweetsTest.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at webpagehelpers.TwitterHomePage.clickOnSearchedUser(TwitterHomePage.java:60)
+	at webpagehelpers.TwitterHomePage.searchForUser(TwitterHomePage.java:51)
+	at tweetsTest.testChrome(tweetsTest.java:94)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -152,11 +155,241 @@ Session ID: a83937b4b9c61dd8d1e4a9bd963767b6
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testChrome[4](gkittle46)" classname="tweetsTest" time="68.411"/>
+  <testcase name="testChrome[5](AnupamPKher)" classname="tweetsTest" time="80.109"/>
+  <testcase name="testChrome[6](SrBachchan)" classname="tweetsTest" time="106.782"/>
+  <testcase name="testChrome[7](iamrashidajones)" classname="tweetsTest" time="72.868"/>
+  <testcase name="testChrome[8](JimmyG_10)" classname="tweetsTest" time="89.179"/>
+  <testcase name="testChrome[9](JoeMontana)" classname="tweetsTest" time="68.208">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=88.0.4324.192)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:61555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 61d89939fd135b96e7c7a336db4fe1c2" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=88.0.4324.192)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sumanths-MacBook-Pro.local', ip: 'fe80:0:0:0:109e:d682:b6a5:d6b7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/2n/81b415rn651...}, goog:chromeOptions: {debuggerAddress: localhost:61555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61d89939fd135b96e7c7a336db4fe1c2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at webpagehelpers.TwitterHomePage.clickOnSearchedUser(TwitterHomePage.java:63)
+	at webpagehelpers.TwitterHomePage.searchForUser(TwitterHomePage.java:51)
+	at tweetsTest.testChrome(tweetsTest.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:139)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:131)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <testcase name="testChrome[10](NinersNation)" classname="tweetsTest" time="89.579"/>
+  <system-out><![CDATA[77 Following
+553 Following
+556 Following
+10.2K Following
+103 Following
+103 Following
+2,701 Following
+2,068 Following
+]]></system-out>
   <system-err><![CDATA[[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/sachin_rt
 [Test worker] INFO tweetsTest - searching for top tweet with id 1356959311075934215 and text India at dateWed Feb 03 13:34:45 +0000 2021
 [Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1356959311075934215
 [Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Sachin TendulkarSachin Tendulkar·India’s sovereignty cannot be compromised. External forces can be spectators but not participants. 
+Indians know India and should decide for India. Let's remain united as a nation.#IndiaTogether #IndiaAgainstPropaganda
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 74630 replies, 117067 Retweets, 308002 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 117067 and from api : 94855
+[Test worker] INFO tweetsTest - num of Favorites from page : 308002 and from api : 308002
+[Test worker] INFO tweetsTest - Favorites Match
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user iamsrk in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user iamsrk after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   iamsrk
+[Test worker] INFO tweetsTest - iamsrk is following [@BauuaSingh, @MeerFoundation, @gaurikhan, @TKRiders, @EmmaWatson, @BeingSalmanKhan, @RedChilliesEnt, @paulocoelho, @SonuSood, @MirzaSania, @pooja_dadlani, @TheFarahKhan, @bomanirani, @nikitindheer, @AnupamPKher, @MichelleObama, @rameshsrivats, @sebastienmicke, @SethMacFarlane, @BrettLee_58, @SnehaRajani, @FareedZakaria, @MikaSingh, , @ritesh_sid, @EhsaanNoorani, @TheDilipKumar, @noaheverett, @jaysean, @DabbooRatnani, @LeoDiCaprio, @shakira, @ChunkyThePanday, @SrBachchan, @chikkipanday, @sachin_rt, @TheVijayMallya, @anupamachopra, @KKRiders, @ShaneWarne, @konkonas, @sussannekroshan, @iHrithik, @wossy, @R_Khanna, @RajeevMasand, @realpreityzinta] users
 [Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/narendramodi
+[Test worker] INFO tweetsTest - searching for top tweet with id 1366200664402006016 and text Took  at dateMon Mar 01 01:36:35 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1366200664402006016
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Narendra ModiNarendra Modi·Took my first dose of the COVID-19 vaccine at AIIMS. 
+
+Remarkable how our doctors and scientists have worked in quick time to strengthen the global fight against COVID-19. 
+
+I appeal to all those who are eligible to take the vaccine. Together, let us make India COVID-19 free!
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 10884 replies, 49326 Retweets, 217140 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 49326 and from api : 45226
+[Test worker] INFO tweetsTest - num of Favorites from page : 217140 and from api : 217130
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user jairbolsonaro in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user jairbolsonaro after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   jairbolsonaro
+[Test worker] INFO tweetsTest - jairbolsonaro is following [@jairbolsonaro, , @CarlaZambelli38, @Biakicis, @alexandregarcia, @ernestofaraujo, @ItamaratyGovBr] users
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/BillGates
+[Test worker] INFO tweetsTest - searching for top tweet with id 1346184604827279360 and text It’s  at dateMon Jan 04 19:59:55 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1346184604827279360
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Bill GatesBill Gates·It’s great to see India’s leadership in scientific innovation and vaccine manufacturing capability as the world works to end the COVID-19 pandemic @PMOIndiaIndia will soon start world’s largest vaccination drive: PM ModiIndia will soon start world’s largest vaccination drive: PM ModiAddressing scientists at the National Metrology Conclave, Modi said it must be ensured that 'Made in India' products not only have global demand but also global acceptanceAddressing scientists at the National Metrology Conclave, Modi said it must be ensured that 'Made in India' products not only have global demand but also global acceptancelivemint.comlivemint.com
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/KingJames
+[Test worker] INFO tweetsTest - searching for top tweet with id 1349817466050887681 and text IM 36 at dateThu Jan 14 20:35:36 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1349817466050887681
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is LeBron JamesLeBron James·IM 36!!!!! IM 36!!!! STOP THROWING THE BALL Quote TweetMark PhillipsMark PhillipsHow Lebron was when he found out James Harden went to the Nets 1:181:1817.7M views
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 7322 replies, 129999 Retweets, 842858 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 129999 and from api : 122223
+[Test worker] INFO tweetsTest - num of Favorites from page : 842858 and from api : 842859
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user BarackObama in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user BarackObama after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/gkittle46
+[Test worker] INFO tweetsTest - searching for top tweet with id 1358578506200924162 and text Gronk at dateMon Feb 08 00:48:51 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1358578506200924162
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is George KittleGeorge Kittle·Gronk spikes are great for everyone
+[Test worker] INFO tweetsTest -  text matches to the page
+[Test worker] INFO tweetsTest - num of retweets from page is 235 replies, 3534 Retweets, 54001 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 3534 and from api : 3441
+[Test worker] INFO tweetsTest - num of Favorites from page : 54001 and from api : 54001
+[Test worker] INFO tweetsTest - Favorites Match
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user KevinHart4real in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user KevinHart4real after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   KevinHart4real
+[Test worker] INFO tweetsTest - KevinHart4real is following [@RealDLHughley, @missnemmanuel, @jack, @BenSimmons25, @joerogan, @NetflixIsAJoke, @Chase, @TKOCBS, @IMDb, @Eagles, @Cristiano, @gadelmaleh, @AnupamPKher, @Drake, @RealKidPoker, @netflix, @amazonbooks, @JoelEmbiid, @FastCompany, @halleberry, @Playboy, @usainbolt, @Caspar_Lee, @Jessewelle, @neilstrauss, @Lilly, @aliciakeys, @melissamccarthy, @benfalcone, @BleacherReport, @MensFitnessMag, @majidjordan, , @TheJetOnTNT, @MrCianTwomey, @NFL, @SportsCenter, @Trevornoah, @GDLA, @MattCentrowitz, @JahlilOkafor, @RottenTomatoes, @amyschumer, @hm, @people, @ericstonestreet] users
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/AnupamPKher
+[Test worker] INFO tweetsTest - searching for top tweet with id 1364807026346516481 and text अगर द at dateThu Feb 25 05:18:46 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1364807026346516481
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Anupam KherAnupam Kher·अगर देश बेचने वाले एक हो सकते हैं ..
+तो 
+देश बचाने वाले एक क्यों नहीं हो सकते? 
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 9700 replies, 22897 Retweets, 113399 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 22897 and from api : 20748
+[Test worker] INFO tweetsTest - num of Favorites from page : 113399 and from api : 113396
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user jimmyfallon in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user jimmyfallon after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   jimmyfallon
+[Test worker] INFO tweetsTest - jimmyfallon is following [@FreddieGibbs, @AdrianneLenker, @Kehlani, @realpinksweats, @WillieJones, @MaxWinebach, @ParisHilton, @HalleBailey, @ChloeBailey, @OnAirWithRick, @jasonjwilde, @arloparks, @OmarSy, @lildurk, @thekidlaroi, @holland_tom, @AndraDayMusic, @AnupamPKher, @ArvindKejriwal, @AnushkaSharma, @HenryLouisGates, @LiamMcEwan, @williemendelson, @marcmalkin, @degodoiamanda, @WWEIndia, @MissMalini, @MirandaCosgrove, @iCarly, @NintendoNYC, , @emmymhartman, @ComplexSneakers, @awkwafina, @joyoladokun, @Skepta, @austintheory1, @insomniacgames, @CDPROJEKTRED, @thegameawards, @meenaharris, @barenakedladies, @93XRT, @slowthai, @fireboydml, @MNightShyamalan, @niluferyanya, @remiwolf, @BradGalli, @JJColao, @acarboni, @marshalederman, @patbaer] users
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/SrBachchan
+[Test worker] INFO tweetsTest - searching for top tweet with id 1356668270875705345 and text T 380 at dateTue Feb 02 18:18:16 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1356668270875705345
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Amitabh BachchanAmitabh Bachchan·T 3802 - 
+"झूठे इन्सान कि ऊंची आवाज सच्चे इन्सान को खामोश करा देती है..........
+लेकिन सच्चे इन्सान की  खामोशी झूठे इन्सान की  बुनियाद हिला देती है। "
+~ Ef SP
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 3636 replies, 5484 Retweets, 54510 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 5484 and from api : 4628
+[Test worker] INFO tweetsTest - num of Favorites from page : 54510 and from api : 54510
+[Test worker] INFO tweetsTest - Favorites Match
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user elonmusk in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user elonmusk after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   elonmusk
+[Test worker] INFO tweetsTest - elonmusk is following [@CoinDesk, @cleantechnica, @TheOnion, @karpathy, @Astro_Soichi, @PopMech, @PyTorch, @AstroVicGlover, @BBC_Future, @kanyewest, @DeepMind, @AnupamPKher, @Drake, @ashleevance, @OpenAI, @ID_AA_Carmack, @jack, @TalulahRiley, @MKBHD, @joerogan, , @Blklivesmatter, @Grimezsz, @JimBridenstine, @SpaceForceCSO, @SpaceForceDoD, @Liv_Boeree, @neiltyson, @CathieDWood] users
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/iamrashidajones
+[Test worker] INFO tweetsTest - searching for top tweet with id 796201018568495104 and text I jus at dateWed Nov 09 04:01:30 +0000 2016
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 796201018568495104
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Rashida JonesRashida Jones·I just want to remind everyone that we are looking at a very close race with a presidential candidate who was endorsed by the KKK.
+[Test worker] INFO tweetsTest -  text matches to the page
+[Test worker] INFO tweetsTest - num of retweets from page is 1070 replies, 34800 Retweets, 55212 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 34800 and from api : 34045
+[Test worker] INFO tweetsTest - num of Favorites from page : 55212 and from api : 55211
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user elonmusk in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user elonmusk after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   elonmusk
+[Test worker] INFO tweetsTest - elonmusk is following [@CoinDesk, @cleantechnica, @TheOnion, @karpathy, @Astro_Soichi, @PopMech, @PyTorch, @AstroVicGlover, @BBC_Future, @kanyewest, @DeepMind, @AnupamPKher, @ArvindKejriwal, @Drake, @ashleevance, @OpenAI, @ID_AA_Carmack, @jack, @TalulahRiley, @MKBHD, @joerogan, , @Blklivesmatter, @Grimezsz, @JimBridenstine, @SpaceForceCSO, @SpaceForceDoD, @Liv_Boeree, @neiltyson, @CathieDWood] users
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/JimmyG_10
+[Test worker] INFO tweetsTest - searching for top tweet with id 562106371802271744 and text We're at dateMon Feb 02 04:32:57 +0000 2015
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 562106371802271744
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Jimmy GaroppoloJimmy Garoppolo·We're World Champs!!! #PatsNation
+[Test worker] INFO tweetsTest -  text matches to the page
+[Test worker] INFO tweetsTest - num of retweets from page is 227 replies, 2352 Retweets, 5431 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 2352 and from api : 2346
+[Test worker] INFO tweetsTest - num of Favorites from page : 5431 and from api : 5432
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user NFL in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user NFL after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   NFL
+[Test worker] INFO tweetsTest - NFL is following [@fred_warner, @NatUrbanLeague, @insidetheNFL, @darrelwilliams_, @JimKelly1212, @jsimms1119, @PorterGustin, @jasonsanderss, @robinthicke, @KennyKennyMoe3, @fhmoreau, @Tpstreets, @DSpencer4_, @GageRussell, @CALLME_WOOD, @dpeoplesjones, @AnupamPKher, @ArvindKejriwal, @Drake, @T_Hill4, @JamesWashington, @McSorley_IX, @GodsGiftGus13, @AllenLazard, @PrestonSmith94, @chosen1ra, @pjwalker_5, @TheKekeCoutee, @keiseannixon, @EddieGeorge2727, , @LlamaDay, @MVS__11, @DHx34, @_TheDreamIsHere, @AndrewVanGinkel, @cwilkins42, @PresMoss2, @GradyJarrett, @Robinson_jamess, @LP_deucedeuce, @Tp__5, @AntonioGibson14, @StoneColdJones, @ChaseEdmonds22, @cedwilson95, @motorsingletary, @MylesGAS, @Juiceup__3, @AnthonyMiller_3, @TheeHOCK8, @Will_Diss, @AlexMattison22, @JenniferKing5] users
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/JoeMontana
+[Test worker] INFO tweetsTest - searching for top tweet with id 1223308708203171841 and text Here  at dateFri Jan 31 18:14:58 +0000 2020
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1223308708203171841
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Joseph MontanaJoseph Montana·Here you go  my prediction is 35-28 my team!!!
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 702 replies, 2023 Retweets, 12088 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 2023 and from api : 1516
+[Test worker] INFO tweetsTest - num of Favorites from page : 12088 and from api : 12090
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user Google in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user Google after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - home page https://twitter.com/NinersNation
+[Test worker] INFO tweetsTest - searching for top tweet with id 1363126518340272128 and text Alex  at dateSat Feb 20 14:01:02 +0000 2021
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling for element 1363126518340272128
+[Test worker] INFO webpagehelpers.TwitterHomePage - scrolling to top of page
+[Test worker] INFO tweetsTest - text we got from page is Niners NationNiners Nation·Alex Smith: I think Kaepernick was ahead of his timeAlex Smith: I think Kaepernick was ahead of his timeAlex Smith: I think Kaepernick was ahead of his timeThe former 49ers QB spoke to NFL Network’s Kyle Brandt about another 49ers QBThe former 49ers QB spoke to NFL Network’s Kyle Brandt about another 49ers QBninersnation.comninersnation.com
+[Test worker] ERROR tweetsTest - text did not match
+[Test worker] INFO tweetsTest - num of retweets from page is 78 replies, 354 Retweets, 2903 likes
+[Test worker] INFO tweetsTest - num of retweets from page : 354 and from api : 309
+[Test worker] INFO tweetsTest - num of Favorites from page : 2903 and from api : 2903
+[Test worker] INFO tweetsTest - Favorites Match
+[Test worker] INFO webpagehelpers.TwitterHomePage - Searching for user DeionSanders in Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking on user DeionSanders after Search 
+[Test worker] INFO webpagehelpers.TwitterHomePage - clicking followers list page for   DeionSanders
+[Test worker] INFO tweetsTest - DeionSanders is following [@T_eazy24, @JPFinlayNBCS, @SpringerTV, @SteveWilkosTV, @JudgeGregMathis, @TheJudgeHatchet, @TheMAURYShow, @divorcecourt, @JudgeMablean, @LaurenLLake, @PaternityCourt, @theswac, @ROLEX, @elonmusk, @AnushkaSharma, @SrBachchan, @Ripple, , @MerrillEdge, @AdrienBroner, @DannySwift, @terencecrawford, @mikeygarcia, @keithfthurmanjr, @ShowtimeShawnP, @LargeBarstool, @jakepaul, @Glenny_balls, @MarvinJonesJets, @calebpressley, @VivaLaStool] users
 ]]></system-err>
 </testsuite>

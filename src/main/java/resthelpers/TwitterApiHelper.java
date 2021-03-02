@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utils.HttpRequests;
 import io.restassured.response.Response;
+import utils.twitterTestFileUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,7 +32,8 @@ public class TwitterApiHelper {
         tweetList.sort((user1, user2) -> (int) user2.get("retweet_count") - (int) user1.get("retweet_count"));
         int topTweets = tweetList.size();
         if (topTweets > 10)
-            topTweets = 10;
+            topTweets = Integer.parseInt(twitterTestFileUtils.prop.getProperty("numberOfTweets"));
+
 
         List<TopTweets> listOfTweets = new ArrayList<>();
         for (int i = 0; i < topTweets; i++) {
@@ -69,7 +71,7 @@ public class TwitterApiHelper {
         int topFriends = friendsList.size();
         logger.info("size of friends list is {}",topFriends);
         if (topFriends > 10)
-            topFriends = 10;
+            topFriends = Integer.parseInt(twitterTestFileUtils.prop.getProperty("numberOfFriends"));
 
         List<TopFriends> listOfTweets = new ArrayList<>();
         for (int i = 0; i < topFriends; i++) {

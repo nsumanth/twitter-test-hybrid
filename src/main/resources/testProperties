@@ -3,3 +3,5 @@ CONSUMER_SECRET = 10Xbelb6ftIsnqNVvukPI1BwbL9nn2QnoX0QheetSYo0t32hJ8
 com.twitter.username=qmagictest
 com.twitter.password=Test1234
 com.twitter.userlist.file = src/main/resources/UsersList.txt
+numberOfFriends=1
+numberOfTweets=1
